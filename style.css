@@ -17,6 +17,7 @@ body{
     padding-right: 170px;
     padding-left: 170px;
     gap: 10px;
+   
 }
 /* primary section title */
 .primary-section-title{
@@ -45,9 +46,10 @@ body{
 .main-section-png{
     width: 450px;
 }
+/* Featured Section */
 .featured-section{
  height: 100vh;
- padding-top: 100px;
+ padding-top: 125px;
 }
 .featured-section-info{
    text-align: center;
@@ -107,4 +109,105 @@ u{
     margin:  110px;
     font-weight: bold;
     color: #272727;
+}
+/* Collect flower section */
+
+.collect-flower-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39,39,39,0.09);
+    width: 69%;
+    margin: auto;
+    padding: 50px;
+}
+.collect-png{
+    padding: 0px 120px 10px;
+}
+.collect-description{
+    text-align: center;
+ color: rgba(39,39,39,0.60);
+}
+
+/* Sale section */
+.sale{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 85vh;
+    background-color: rgba(229,84,115,0.06);
+    margin: 85px 0px;
+}
+
+span{
+    color:#E55473;
+}
+.sale-info{
+  /*  padding-left: 150px;*/
+  text-align: center;
+}
+.sale-png{
+    width: 80%;
+}
+.sale-description{
+    color: rgba(39,39,39,0.60);
+    padding: 25px;
+   
+}
+
+/* instagram section */
+
+.instagram-info{
+    text-align: center;
+    padding: 30px 0px 60px;
+    
+}
+
+.instagram-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-png{
+    width: 250px;
+    height: 250px;
+    padding: 0 10px;
+}
+
+/* deals section */
+
+input{
+    padding: 15px 160px;
+    border-radius: 2px;
+    border-style: none;
+}
+.deals{
+    text-align: center;
+
+
+    width: 79%;
+    margin: 100px auto;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+     
+    padding: 80px 0; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer section */
+.footer-title{
+    color: white;
+}
+.footer-description{
+    color: rgba(233, 212, 212,0.8);
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 100px 0;
+}
+.footer-foot{
+    color: rgba(255, 255, 255,0.3);
 }
