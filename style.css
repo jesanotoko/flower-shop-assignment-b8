@@ -178,8 +178,9 @@ span{
 
 input{
     padding: 15px 160px;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: none;
+    margin-right: 10px;
 }
 .deals{
     text-align: center;
@@ -195,8 +196,60 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Popular flower section */
 
-/* Footer section */
+.flower-ti{
+  text-align: center;
+  
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 30px;
+  color: #272727;
+}
+.flower-des{
+   text-align: justify;
+   padding: 10px 15px;
+   color: rgba(107, 96, 96, 0.9);
+
+}
+.flower1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 7px gray;
+    margin: 20px;
+    
+
+}
+.flower-img-png{
+   height: 200px;
+    width: 200px;
+    border-radius: 3px 5px 3px;
+    box-shadow: 4px 4px 10px gray;
+
+}
+
+.popular-flower{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.flw1{
+    background-color: rgba(7, 7, 7, 0.1);
+}
+.flw2{
+    background-color: rgba(7, 7, 7, 0.2);
+}
+.flw3{
+    background-color: rgba(7, 7, 7, 0.1);
+}
+.flw4{
+    background-color: rgba(7, 7, 7, 0.2);
+}
+
+/* Footer flower section */
 .footer-title{
     color: white;
 }
